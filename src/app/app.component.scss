@@ -1,0 +1,21 @@
+img {
+  width: 100px;
+  padding: 2px;
+}
+
+video {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#outer-div {
+  width: 100%;
+  text-align: center;
+  background-color: #0666a3;
+}
+#inner-div {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
+  width: 33%
+}

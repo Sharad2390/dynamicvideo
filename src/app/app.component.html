@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>Dynamic Video Binding</h1>
+</div>
+<div id="outer-div" width="100%">
+  <video src="{{videoURL}}" controls id="inner-div"></video>
+</div>
+<img mat-card-image *ngFor="let video of videos" (click)="changeURL(video);" src="{{video.thumb}}" alt="{{video.title}}"
+  width="50%">
+
+<router-outlet></router-outlet>
